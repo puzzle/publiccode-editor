@@ -56,6 +56,7 @@ import EditorSelect from "./EditorSelect";
 import EditorToolbar from "./EditorToolbar";
 import EditorUsedBy from "./EditorUsedBy";
 import EditorVideos from "./EditorVideos";
+import EditorVideos from "./EditorVideos";
 import PubliccodeYmlLanguages from "./PubliccodeYmlLanguages";
 import { yamlLoadEventBus } from "./UploadPanel";
 // import EditorMDInput from "./EditorMDInput";
@@ -481,7 +482,12 @@ export default function Editor() {
                     </span>
                   </div>
                   <div>
-                    <EditorDescriptionInput<"longDescription">
+                    <Col>
+                    <EditorVideos lang={lang} />
+                  </Col>
+                </Row>
+                <Row>
+                  <EditorDescriptionInput<"longDescription">
                       fieldName="longDescription"
                       lang={lang}
                       required
