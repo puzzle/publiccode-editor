@@ -487,6 +487,11 @@ export default function Editor() {
                   </Col>
                 </Row>
                 <Row>
+                  <Col>
+                    <EditorAwards lang={lang} />
+                  </Col>
+                </Row>
+                <Row>
                   <EditorDescriptionInput<"longDescription">
                       fieldName="longDescription"
                       lang={lang}
