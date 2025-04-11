@@ -7,6 +7,10 @@ export function parseYaml(yaml: string): PublicCode | null {
   return yaml ? (YAML.parse(yaml) as PublicCode) : null;
 }
 
+export function parseYaml(yaml: string): PublicCode | null {
+  return yaml ? (YAML.parse(yaml) as PublicCode) : null;
+}
+
 export function getYaml(data: PublicCode): string | null {
   console.log("getYaml", data);
   return data ? (YAML.stringify(linter(data)) as string) : null;
