@@ -458,7 +458,7 @@ HEAD
 }
 
 .content__head__title {
-  color: #06c;
+  color: #334254;
   font-family: "Titillium Web";
   font-size: 2rem;
   font-weight: bold;
@@ -512,7 +512,7 @@ HEAD
 
 .content__main {
   width: 100%;
-  /* background-color: #06c; */
+  /* background-color: #334254; */
   padding: 0 2em;
   overflow: auto;
   order: 0;
@@ -709,7 +709,7 @@ SETTINGS
 
 .loading {
   width: 40px;
-  fill: #06c;
+  fill: #334254;
 }
 
 /**
@@ -902,7 +902,7 @@ SETTINGS
 .preview__footer {
   position: relative;
   height: 100px;
-  background-color: #06c;
+  background-color: #334254;
   color: #fff;
   display: flex;
   align-items: center;
@@ -962,7 +962,7 @@ SETTINGS
  	height: 40px;
  	width: 40px;
  	border-radius: 50%;
- 	background-color: #06c;
+ 	background-color: #334254;
  	color: #fff;
  	font-family: "Roboto Mono";
  	font-size: 21px;
@@ -1142,7 +1142,7 @@ SETTINGS
  .rc-collapse>.rc-collapse-item-active>.rc-collapse-header {
  	color: #fff;
  	border-bottom: none;
- 	background: #06c;
+ 	background: #334254;
  }
 
  .rc-collapse>.rc-collapse-item-active>.rc-collapse-header-error {
@@ -1190,7 +1190,7 @@ SETTINGS
 .language-switcher__link,
 .language-switcher__item {
   font-size: 18px;
-  color: #06c;
+  color: #334254;
   margin-right: 10px;
   width: 150px;
   text-align: center;
@@ -1212,14 +1212,14 @@ SETTINGS
 }
 
 .language-switcher__item--selected {
-  border-bottom: 1px solid #06c;
+  border-bottom: 1px solid #334254;
   cursor: pointer;
 }
 
 .language-switcher__link {
   font-size: 18px;
   margin-bottom: 10px;
-  color: #06c;
+  color: #334254;
 }
 
 /**
