@@ -42,7 +42,7 @@
     "accessible-autocomplete": "^3.0.1",
     "axios": "^1.8.2",
     "bootstrap": "^5.3.6",
-    "bootstrap-italia": "^2.14.0",
+    "bootstrap-switzerland": "file:../bootstrap-switzerland",
     "copy-to-clipboard": "^3.3.3",
     "countries-list": "^3.0.6",
     "date-fns": "^4.1.0",
