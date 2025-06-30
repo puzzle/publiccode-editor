@@ -124,7 +124,7 @@ export default function EditorVideos({ lang }: Props): JSX.Element {
 
   return (
     <div>
-      <div className="position-relative">
+      <div className="position-relative mb-2">
         <label
           className="description-label active"
           htmlFor={`description.${lang}.videos`}

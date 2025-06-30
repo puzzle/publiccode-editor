@@ -372,7 +372,7 @@ export default function Editor() {
                 <EditorInput<"applicationSuite"> fieldName="applicationSuite" />
               </span>
             </div>
-            <div className="p-2 bd-highlight">
+            <div className="bd-highlight">
               <PubliccodeYmlLanguages />
             </div>
             {languages
