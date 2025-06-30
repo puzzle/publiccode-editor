@@ -864,28 +864,28 @@ SETTINGS
 
 .preview__code {
   flex: 1;
-  color: #00ff80;
+  color: white;
 }
 
 .preview__code pre,
 .preview__code code {
   margin-top: -10px;
   padding: 0 18px 18px;
-  color: #00ff80;
-  font-family: "Roboto Mono";
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 18px;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
 }
 
 .preview__error {
   padding: 10px;
   overflow: auto;
-  font-family: "Roboto Mono";
+  font-family: "Noto Sans", sans-serif;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  color: #f83e5a;
+  font-size: 20px;
+  line-height: 160%;
+  color: #D8232A;
   margin-left: 15px;
 }
 
@@ -907,7 +907,7 @@ SETTINGS
 .preview__footer {
   position: relative;
   height: 100px;
-  background-color: #334254;
+  background-color: #2F4356;
   color: #fff;
   display: flex;
   align-items: center;
