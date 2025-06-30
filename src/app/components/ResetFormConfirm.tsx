@@ -24,6 +24,7 @@ export const ResetFormConfirm = (props: Props): JSX.Element => {
       <ModalFooter tag="div">
         <Button
           color="secondary"
+          outline
           icon={false}
           tag="button"
           onClick={props.toggle}

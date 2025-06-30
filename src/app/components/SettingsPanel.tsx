@@ -29,7 +29,7 @@ export default function SettingsPanel({
           <Icon size="lg" icon="it-close" />
         </Button>
         <Dropdown className="me-3">
-          <DropdownToggle caret color="primary">
+          <DropdownToggle caret color="secondary">
             {t("editor.settings.language")}
           </DropdownToggle>
           <DropdownMenu>

@@ -98,7 +98,7 @@ export default function EditorScreenshots({ lang }: Props): JSX.Element {
           />
           <div className="input-group-append">
             <Button
-              color="primary"
+              color="secondary"
               disabled={current.trim() === ""}
               onClick={add}
             >

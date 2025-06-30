@@ -80,7 +80,7 @@ export default function EditorUsedBy(): JSX.Element {
           />
           <div className="input-group-append">
             <Button
-              color="primary"
+              color="secondary"
               disabled={
                 current.trim() === "" || usedBy.includes(current.trim())
               }

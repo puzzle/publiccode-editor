@@ -24,7 +24,7 @@ const EditorToolbar = (props: Props): JSX.Element => {
           {t("editor.form.reset.button")}
         </Button>
         <Button
-          color='primary'
+          color="secondary"
           disabled={!props.languages || props.languages.length === 0}
           onClick={props.trigger}
           className="content__toolbar-primary-button"

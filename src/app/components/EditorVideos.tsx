@@ -172,7 +172,7 @@ export default function EditorVideos({ lang }: Props): JSX.Element {
           />
           <div className="input-group-append">
             <Button
-              color="primary"
+              color="secondary"
               disabled={current.trim() === "" || !isValidUrl}
               onClick={add}
             >
