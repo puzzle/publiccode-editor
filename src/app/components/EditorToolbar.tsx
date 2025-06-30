@@ -27,7 +27,7 @@ const EditorToolbar = (props: Props): JSX.Element => {
           color="secondary"
           disabled={!props.languages || props.languages.length === 0}
           onClick={props.trigger}
-          className="content__toolbar-primary-button"
+          className="content__toolbar-primary-button fw-normal"
         >
           {props.yamlLoaded
             ? t("editor.form.validate.button")
