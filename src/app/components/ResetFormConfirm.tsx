@@ -19,7 +19,7 @@ export const ResetFormConfirm = (props: Props): JSX.Element => {
       data-testid="resetform-modal"
     >
       <ModalBody>
-        <p className="h5">{t("editor.form.overwritetext")}</p>
+        <p>{t("editor.form.overwritetext")}</p>
       </ModalBody>
       <ModalFooter tag="div">
         <Button
