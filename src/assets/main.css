@@ -1156,11 +1156,10 @@ SETTINGS
  	background: #f83e5a;
  }
  */
-/**
+
  RW MULTISELECT
 
-
- .rw-multiselect-input {
+/* .rw-multiselect-input {
  	min-width: 50rem;
  	margin-left: 0.5rem;
  	margin-right: 0.5rem;
@@ -1172,9 +1171,30 @@ SETTINGS
 
  .rw-multiselect-tag-btn:hover {
  	opacity: 100%;
+ }*/
+
+.rw-widget-input, .rw-widget-picker {
+   border-radius: 1px;
  }
 
- */
+.rw-multiselect-tag {
+  background: #072242;
+  color: #fff;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.rw-multiselect-tag-btn {
+  color: #D8232A;
+  border-radius: 20px;
+  height: 20px;
+  background: white;
+  margin: 5px;
+
+  svg {
+    display: flex;
+  }
+}
 
 /**
  LANGUAGE SWITCHER
