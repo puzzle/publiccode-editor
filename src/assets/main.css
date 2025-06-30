@@ -499,7 +499,13 @@ HEAD
 .content__wrapper {
   display: flex;
   flex-direction: column;
-  height: 94.7vh;
+  height: calc(100vh - 152px);
+}
+
+@media all and (max-width: 992px) {
+  .content__wrapper {
+    height: calc(100vh - 98px);
+  }
 }
 
 .content__editor-wrapper {
@@ -541,7 +547,6 @@ HEAD
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 90vh;
   height: 100%;
   /* background-color: yellow; */
   order: 1;
