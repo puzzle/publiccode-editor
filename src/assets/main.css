@@ -408,7 +408,7 @@ WRAPPERS
 }
 
 .description-label {
-  font-weight: 600;
+  font-weight: normal;
   font-size: 0.875rem;
   color: hsl(0, 0%, 10%);
   padding: 0 0.5rem;
