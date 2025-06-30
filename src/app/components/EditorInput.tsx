@@ -55,7 +55,6 @@ export default function EditorInput<
           }`}
         </label>
         <Button
-          color="secondary"
           type="button"
           innerRef={buttonRef}
           className="info-icon-wrapper"
