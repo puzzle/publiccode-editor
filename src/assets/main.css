@@ -498,7 +498,7 @@ HEAD
 .content__wrapper {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 152px);
+  height: calc(100vh - 112px);
 }
 
 @media all and (max-width: 992px) {
