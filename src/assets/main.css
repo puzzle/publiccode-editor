@@ -1,9 +1,4 @@
-@import "./fonts/fonts.css";
 @import "./glyphicons/glyphicons.css";
-
-* {
-  font-family: "Noto Sans", sans-serif;
-}
 
 /**
 INFOBOX
