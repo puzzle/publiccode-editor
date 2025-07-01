@@ -771,7 +771,7 @@ SETTINGS
 }
 
 .preview__title {
-  padding: 1em;
+  padding: 2rem;
   font-size: 24px;
   font-weight: bold;
   line-height: 28px;
@@ -869,20 +869,18 @@ SETTINGS
 .preview__code pre,
 .preview__code code {
   margin-top: -10px;
-  padding: 0 18px 18px;
+  padding: 0 2rem 2rem;
   color: white;
-  font-family: "Noto Sans", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 160%;
 }
 
 .preview__error {
   padding: 10px;
   overflow: auto;
-  font-family: "Noto Sans", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 160%;
   color: #D8232A;
   margin-left: 15px;
