@@ -30,6 +30,8 @@ description:
       - Validierung von publiccode.yml
       - Import von publiccode.yml über URL
       - Mehrere Sprachen können verwaltet werden
+    screenshots:
+      - screenshot.png
 legal:
   license: AGPL-3.0-or-later
 maintenance:
