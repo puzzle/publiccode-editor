@@ -10,7 +10,7 @@ categories:
 developmentStatus: development
 softwareType: standalone/web
 description:
-  gsw-CH:
+  de-CH:
     localisedName: publiccode.yml Editor
     shortDescription: Ein Web-Editor zur Erstellung und Validierung von publiccode.yml-Dateien.
     longDescription: >-
