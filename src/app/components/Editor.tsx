@@ -414,7 +414,7 @@ export default function Editor() {
                 <EditorInput<"applicationSuite"> fieldName="applicationSuite" />
               </span>
             </div>
-            <div className="p-2 bd-highlight">
+            <div className="bd-highlight">
               <PubliccodeYmlLanguages />
             </div>
             {languages
@@ -423,7 +423,7 @@ export default function Editor() {
                   className="languages"
                   key={`publiccodeyml.description.${lang}`}
                 >
-                  <div className="p-2 fw-bold mb-4">
+                  <div className="py-2 fw-bold mb-4">
                     {t(`publiccodeyml.description.title`)} (in{" "}
                     {displayName(lang, undefined, "language")})
                   </div>
