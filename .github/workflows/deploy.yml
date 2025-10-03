@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - develop
+      - cd-bund
 
 jobs:
   deploy:
@@ -19,7 +19,7 @@ jobs:
         env:
           DEFAULT_COUNTRY_SECTION: switzerland
       - run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/puzzle/publiccode-editor.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/swiss/publiccode-editor.git
           npm run gdeploy -m "Automated deployment: ${CIRCLE_SHA1} [ci skip]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
