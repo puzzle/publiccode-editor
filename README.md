@@ -1,3 +1,8 @@
+# This Repository is archived!
+
+This repository contains the proof of concept of the oss-catalog developed for the swiss government.
+The new repository lives here: [https://github.com/swiss/oss-catalog ](https://github.com/swiss/publiccode-editor)
+
 # publiccode yml Editor
 ![Build Status](https://img.shields.io/circleci/project/github/italia/publiccode-editor/master.svg) ![Issues](https://img.shields.io/github/issues/italia/publiccode-editor.svg) ![License](https://img.shields.io/github/license/italia/publiccode-editor.svg)
 
